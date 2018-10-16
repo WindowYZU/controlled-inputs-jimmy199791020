@@ -29,8 +29,10 @@ public class JLIst1 {
         frame.setLayout(new BorderLayout());
         //create JList and add it to a JScrollPane
         JScrollPane scrollPane=new JScrollPane();
+        JList list=new JList(new String[]{"a","b","c","a","b","c","a","b","c","a","b","c","a","b","c","a","b","c","a","b","c"});
         //////////////////////////////////////////
-        frame.add(scrollPane);
+        frame.add(list);
+        //frame.add(scrollPane);
         
         frame.setVisible(true);
     }
